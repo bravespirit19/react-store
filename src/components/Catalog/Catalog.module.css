@@ -1,0 +1,13 @@
+.catalog_wrap {
+  padding: 16px 0 16px 0;
+  display: flex;
+  flex-wrap: wrap;
+
+  :nth-child(5n + 1) {
+    margin-left: 0px;
+  }
+
+  :nth-child(5n) {
+    margin-right: 0px;
+  }
+}

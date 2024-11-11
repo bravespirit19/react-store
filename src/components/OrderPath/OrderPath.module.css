@@ -1,0 +1,47 @@
+.container {
+  width: 960px;
+  margin: 0 auto;
+}
+
+section {
+  padding: 30px 0 0 0;
+}
+
+.path {
+  display: flex;
+  height: 15px;
+  font-size: 16px;
+  letter-spacing: -0.02em;
+  text-align: center;
+
+  a {
+    color: #243573;
+  }
+
+  span {
+    color: #8b95b5;
+    cursor: default;
+  }
+
+  * {
+    margin: 0 8px;
+  }
+
+  :first-child {
+    margin: 0 8px 0 0;
+  }
+
+  :last-child {
+    margin: 0 0 0 8px;
+  }
+
+  .active {
+    color: #00ae1c;
+  }
+
+  .disabled {
+    pointer-events: none;
+    color: #8b95b5;
+    cursor: default;
+  }
+}
